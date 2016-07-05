@@ -1,0 +1,65 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:WrikeTestApp/Components/Address/Address.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "UserRow"
+      }
+    ],
+    "6": "User.dart"
+  },
+  "type": {
+    "User": {
+      "class": "Identifier",
+      "name": "User",
+      "moduleUrl": "asset:WrikeTestApp/lib/Components/User/User.dart",
+      "prefix": null,
+      "value": null
+    },
+    "UserRow": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "user-row",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "UserRow",
+        "moduleUrl": "asset:WrikeTestApp/lib/Components/User/User.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<tr>\r\n    <td>{{user.Name}}</td>\r\n    <td>{{user.Age}}</td>\r\n    <td>{{user.Gender}}</td>\r\n    <td>{{user.Department}}</td>\r\n    <td>{{user.FullAddress}}</td>\r\n</tr>\r\n\r\n",
+        "templateUrl": "asset:WrikeTestApp/lib/Components/User/user-row.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

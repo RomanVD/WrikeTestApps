@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "Address": {
+      "class": "Identifier",
+      "name": "Address",
+      "moduleUrl": "asset:WrikeTestApp/lib/Components/Address/Address.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

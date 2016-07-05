@@ -1,0 +1,30 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:WrikeTestApp/Sortings/SortingDirection.dart",
+        "5": false
+      },
+      {
+        "1": "package:WrikeTestApp/Sortings/Sorting.dart",
+        "5": false
+      },
+      {
+        "1": "package:WrikeTestApp/Components/User/User.dart",
+        "5": false
+      }
+    ],
+    "6": "UserSorting.dart"
+  },
+  "type": {
+    "UserSorting": {
+      "class": "Identifier",
+      "name": "UserSorting",
+      "moduleUrl": "asset:WrikeTestApp/lib/Sortings/UserSorting.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

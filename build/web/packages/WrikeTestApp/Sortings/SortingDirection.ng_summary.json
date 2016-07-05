@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "SortingDirection": {
+      "class": "Identifier",
+      "name": "SortingDirection",
+      "moduleUrl": "asset:WrikeTestApp/lib/Sortings/SortingDirection.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

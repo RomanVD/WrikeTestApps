@@ -1,0 +1,43 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:WrikeTestApp/Components/User/User.dart",
+        "5": false
+      }
+    ],
+    "6": "UserFilter.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.ngfactory.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:WrikeTestApp/Components/User/User.ngfactory.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "FilterValue": {
+      "class": "Identifier",
+      "name": "FilterValue",
+      "moduleUrl": "asset:WrikeTestApp/lib/Filters/UserFilter.dart",
+      "prefix": null,
+      "value": null
+    },
+    "UserFilter": {
+      "class": "Identifier",
+      "name": "UserFilter",
+      "moduleUrl": "asset:WrikeTestApp/lib/Filters/UserFilter.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

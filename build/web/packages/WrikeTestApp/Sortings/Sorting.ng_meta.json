@@ -1,0 +1,28 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:WrikeTestApp/Sortings/SortingDirection.dart",
+        "5": false
+      }
+    ],
+    "6": "Sorting.dart",
+    "7": [
+      {
+        "1": "package:WrikeTestApp/Sortings/SortingDirection.ngfactory.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "Sorting": {
+      "class": "Identifier",
+      "name": "Sorting",
+      "moduleUrl": "asset:WrikeTestApp/lib/Sortings/Sorting.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

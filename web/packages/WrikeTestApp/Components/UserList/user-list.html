@@ -1,0 +1,56 @@
+﻿<div class="row">
+    <div class="col-md-4">
+        <div *ngFor="let item of Filter.Genders">
+            <label *ngIf="item.Count > 0"><input type="checkbox" (change)="applyFilter(item, $event)"> {{item.Value}} ({{item.Count}})</label>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div *ngFor="let item of Filter.Departments">
+            <label *ngIf="item.Count > 0"><input type="checkbox" (change)="applyFilter(item, $event)"> {{item.Value}} ({{item.Count}})</label>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div *ngFor="let item of Filter.Cities">
+            <label *ngIf="item.Count > 0"><input type="checkbox" (change)="applyFilter(item, $event)"> {{item.Value}} ({{item.Count}})</label>
+        </div>
+    </div>
+</div>
+<table class="table table-striped">
+    <thead>
+        <th (click)="Sorting.sortByName(FilteredUsers)">
+            Имя
+            <span *ngIf="Sorting.isAsc(Sorting.Name)"  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+            <span *ngIf="Sorting.isDesc(Sorting.Name)" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </th>
+        <th (click)="Sorting.sortByAge(FilteredUsers)">
+            Возраст
+            <span *ngIf="Sorting.isAsc(Sorting.Age)"  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+            <span *ngIf="Sorting.isDesc(Sorting.Age)" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </th>
+        <th (click)="Sorting.sortByGender(FilteredUsers)">
+            Пол
+            <span *ngIf="Sorting.isAsc(Sorting.Gender)"  class="glyphicon glyphicon-chevron-up"  aria-hidden="true"></span>
+            <span *ngIf="Sorting.isDesc(Sorting.Gender)" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </th>
+        <th (click)="Sorting.sortByDepartment(FilteredUsers)">
+            Департамент
+            <span *ngIf="Sorting.isAsc(Sorting.Department)"  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+            <span *ngIf="Sorting.isDesc(Sorting.Department)" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </th>
+        <th (click)="Sorting.sortByFullAddress(FilteredUsers)">
+            Адрес
+            <span *ngIf="Sorting.isAsc(Sorting.FullAddress)"  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+            <span *ngIf="Sorting.isDesc(Sorting.FullAddress)" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </th>
+    </thead>
+    <tbody>
+    <tr  *ngFor="let user of FilteredUsers">
+        <td>{{user.Name}}</td>
+        <td>{{user.Age}}</td>
+        <td>{{user.Gender}}</td>
+        <td>{{user.Department}}</td>
+        <td>{{user.FullAddress}}</td>
+    </tr>
+    <!--<user-row *ngFor="let item of FilteredUsers" ([user])="item"></user-row>-->
+    </tbody>
+</table>
